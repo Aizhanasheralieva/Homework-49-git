@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
    "dev": "nodemon",
-    "board": "node board.js"
+    "board": "tsc board.ts && node board.js"
   },
   "keywords": [],
   "author": "",
