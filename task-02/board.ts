@@ -1,4 +1,4 @@
-const createChessboard = (size: number = 8) => {
+const drawChessboard = (size: number = 8) => {
     let chessboard: string = '';
     for (let i: number = 1; i < size; i++) {
         chessboard += '\n';
@@ -10,4 +10,4 @@ const createChessboard = (size: number = 8) => {
     return chessboard;
 }
 
-console.log(createChessboard(16));
+console.log(drawChessboard(16));
