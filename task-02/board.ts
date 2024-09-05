@@ -1,4 +1,4 @@
-const drawChessboard = (size: number = 8) => {
+const drawChessboard = (size: number) => {
     let chessboard: string = '';
     for (let i: number = 1; i < size; i++) {
         chessboard += '\n';
